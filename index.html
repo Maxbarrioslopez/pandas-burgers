@@ -1,0 +1,231 @@
+<!-- Definición del tipo de documento HTML5 -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración de caracteres UTF-8 para soporte de caracteres especiales -->
+    <meta charset="UTF-8">
+    <!-- Meta tag para hacer el sitio web responsive en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Panda Burgers & Sandwich - Delivery de Comida</title>
+    <!-- Enlace al archivo CSS principal -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Preconexión a Google Fonts para optimizar carga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importación de la fuente Poppins desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Contenedor principal del cuerpo del documento -->
+    <!-- ========== INICIO HEADER ========== -->
+    <header class="header">
+        <!-- Contenedor para centrar contenido -->
+        <div class="container">
+            <!-- Contenido del header -->
+            <div class="header-content">
+                <!-- Contenedor del logo -->
+                <div class="logo">
+                    <!-- Imagen del logo del panda con hamburguesa -->
+                    <img src="img/panda-logo.png" alt="Panda Burgers Logo" class="logo-img">
+                    <!-- Contenedor del texto del logo -->
+                    <div class="logo-text">
+                        <!-- Nombre principal de la marca -->
+                        <h1>Panda</h1>
+                        <!-- Subtítulo descriptivo de la marca -->
+                        <span>Burgers & Sandwich</span>
+                    </div>
+                </div>
+                <!-- Barra de navegación principal -->
+                <nav class="navigation">
+                    <!-- Lista de elementos de navegación -->
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#productos" class="nav-link">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicios" class="nav-link">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link">Contáctanos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ========== FIN HEADER ========== -->
+
+    <!-- ========== INICIO MAIN ========== -->
+    <main class="main-content">
+
+        <!-- Sección de productos -->
+        <section id="productos" class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">NUESTROS PRODUCTOS</h2>
+                    <div class="title-divider">
+                        <span class="divider-line"></span>
+                        <img src="img/hamburger-icon.png" alt="Hamburger Icon" class="title-icon">
+                        <span class="divider-line"></span>
+                    </div>
+                </div>
+                <div class="products-grid">
+                    <!-- Tarjeta 1 -->
+                    <div class="product-card sandwiches-card">
+                        <div class="card-header">
+                            <h3 class="card-title">Sandwiches</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul class="product-list">
+                                <li class="product-item"><span class="bullet">●</span> Hamburguesa Doble Queso</li>
+                                <li class="product-item"><span class="bullet">●</span> Hamburguesa Italiana</li>
+                                <li class="product-item"><span class="bullet">●</span> Completo</li>
+                                <li class="product-item"><span class="bullet">●</span> Completo Italiano</li>
+                                <li class="product-item"><span class="bullet">●</span> Barros Luco</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-orange">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="product-card snacks-card">
+                        <div class="card-header">
+                            <h3 class="card-title">Snacks</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul class="product-list">
+                                <li class="product-item"><span class="bullet">●</span> Papas Fritas</li>
+                                <li class="product-item"><span class="bullet">●</span> Aros de Cebolla</li>
+                                <li class="product-item"><span class="bullet">●</span> Puljitos</li>
+                                <li class="product-item"><span class="bullet">●</span> Pepinillos</li>
+                                <li class="product-item"><span class="bullet">●</span> Salchipapas</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-red">Ver Más</button>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="product-card bebestibles-card">
+                        <div class="card-header">
+                            <h3 class="card-title">Bebestibles</h3>
+                        </div>
+                        <div class="card-content">
+                            <ul class="product-list">
+                                <li class="product-item"><span class="bullet">●</span> Bebidas</li>
+                                <li class="product-item"><span class="bullet">●</span> Cervezas</li>
+                                <li class="product-item"><span class="bullet">●</span> Jugos</li>
+                                <li class="product-item"><span class="bullet">●</span> Aguas Minerales</li>
+                                <li class="product-item"><span class="bullet">●</span> Té o Café</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-blue">Ver Más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de servicios -->
+        <section id="servicios" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">NUESTROS SERVICIOS</h2>
+                    <div class="title-divider">
+                        <span class="divider-line"></span>
+                        <img src="img/delivery-icon.png" alt="Delivery Icon" class="title-icon">
+                        <span class="divider-line"></span>
+                    </div>
+                </div>
+                <div class="services-content">
+                    <div class="service-card">
+                        <div class="service-text">
+                            <p>¡Entregamos el mejor servicio de entrega de comida chatarra y bebestibles a cualquier parte del mundo y a cualquier hora!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- ========== FIN MAIN ========== -->
+
+    <!-- ========== INICIO FOOTER ========== -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CONTÁCTANOS</h2>
+                <div class="title-divider">
+                    <span class="divider-line"></span>
+                    <img src="img/contact-icon.png" alt="Contact Icon" class="title-icon">
+                    <span class="divider-line"></span>
+                </div>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-grid">
+                    <!-- Dirección -->
+                    <div class="contact-item address">
+                        <img src="img/location-icon.png" alt="Location" class="icon">
+                        <div class="contact-details">
+                            <h4 class="contact-label">DIRECCIÓN</h4>
+                            <p class="contact-text">Av. Siempre Viva 651, Springfield Chile</p>
+                        </div>
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="contact-item phone">
+                        <img src="img/phone-icon.png" alt="Phone" class="icon">
+                        <div class="contact-details">
+                            <h4 class="contact-label">TELÉFONO</h4>
+                            <p class="contact-text">+56 9 1234 5678</p>
+                        </div>
+                    </div>
+
+                    <!-- Correo -->
+                    <div class="contact-item email">
+                        <img src="img/email-icon.png" alt="Email" class="icon">
+                        <div class="contact-details">
+                            <h4 class="contact-label">CORREO</h4>
+                            <p class="contact-text">pandasetafa@pandaburgers.cl</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección redes sociales -->
+            <div class="social-section">
+                <div class="container">
+                    <h3 class="social-title">NUESTRAS REDES SOCIALES</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link facebook" aria-label="Facebook">
+                            <img src="img/facebook-icon.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="#" class="social-link twitter" aria-label="Twitter">
+                            <img src="img/twitter-icon.png" alt="Twitter" class="social-icon">
+                        </a>
+                        <a href="#" class="social-link youtube" aria-label="YouTube">
+                            <img src="img/youtube-icon.png" alt="YouTube" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botón WhatsApp -->
+            <div class="whatsapp-float">
+                <a href="https://wa.me/56912345678" target="_blank" class="whatsapp-link" aria-label="Contactar por WhatsApp">
+                    <img src="img/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== FIN FOOTER ========== -->
+
+</body>
+</html>
